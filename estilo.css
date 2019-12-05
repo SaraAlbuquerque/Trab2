@@ -8,11 +8,17 @@ nav{
     color: white;
     text-align: center;
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
 
 h1{
-    padding-top: 10px;
+    justify-self: center;
 }
+
 
 .conteudo{
     width: 100%;
@@ -32,10 +38,24 @@ h1{
 
 }
 
+.internonav{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .titulo{
     width: 100%;
     color: white;
     background-color: black;
+}
+
+#bt{
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 100px;
 }
 
 #barra{
